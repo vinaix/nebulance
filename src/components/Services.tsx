@@ -64,6 +64,18 @@ const Services: React.FC = () => {
       description: 'Data-driven insights to understand and improve user engagement.',
       bullets: ['Custom dashboards', 'Performance metrics', 'User behavior'],
       motion: 'slide-from-right'
+    },
+    // ✅ NEW SERVICE
+    {
+      icon: Rocket,
+      title: 'AI Call System Setup',
+      description: 'End-to-end setup of inbound and outbound AI calling workflows for your business.',
+      bullets: [
+        'Custom AI call flows & prompts',
+        'Integration with CRMs and tools',
+        'Testing, monitoring & optimisation'
+      ],
+      motion: 'fade-slide-up'
     }
   ];
 
@@ -74,7 +86,7 @@ const Services: React.FC = () => {
         <div 
           className="absolute inset-0 opacity-8"
           style={{
-            backgroundImage: `radial-gradient(circle at 1.5px 1.5px, rgba(17,24,39,0.08) 1px, transparent 0)`,
+            backgroundImage: radial-gradient(circle at 1.5px 1.5px, rgba(17,24,39,0.08) 1px, transparent 0),
             backgroundSize: '12px 12px'
           }}
         />
@@ -98,10 +110,10 @@ const Services: React.FC = () => {
             return (
               <div
                 key={service.title}
-                className={`animate-on-scroll opacity-0 translate-y-8 group relative backdrop-blur-[16px] bg-white/75 border border-gray-900/8 rounded-xl p-8 hover:shadow-[0_10px_25px_rgba(17,24,39,0.06),0_2px_4px_rgba(17,24,39,0.04)] hover:scale-[1.02] hover:border-blue-600/12 transition-all duration-300 hover:-translate-y-1.5`}
+                className="animate-on-scroll opacity-0 translate-y-8 group relative backdrop-blur-[16px] bg-white/75 border border-gray-900/8 rounded-xl p-8 hover:shadow-[0_10px_25px_rgba(17,24,39,0.06),0_2px_4px_rgba(17,24,39,0.04)] hover:scale-[1.02] hover:border-blue-600/12 transition-all duration-300 hover:-translate-y-1.5"
                 style={{ 
-                  transitionDelay: `${index * 120}ms`,
-                  animationDelay: `${400 + index * 120}ms`
+                  transitionDelay: ${index * 120}ms,
+                  animationDelay: ${400 + index * 120}ms
                 }}
               >
                 <div className="mb-6">
