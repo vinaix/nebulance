@@ -24,7 +24,7 @@ const Pricing: React.FC = () => {
   const pricingTiers = [
     {
       tier: 'Essential',
-      price: 99,
+      price: 999,
       currency: 'INR',
       suffix: 'one-time',
       features: ['5-page website', 'Responsive design', 'Basic SEO', '3 months support'],
@@ -35,7 +35,7 @@ const Pricing: React.FC = () => {
     {
       tier: 'Professional',
       badge: 'Most Popular',
-      price: 149,
+      price: 1499,
       currency: 'INR', 
       suffix: 'one-time',
       features: ['10-page website', 'Custom design', 'Advanced SEO', 'CMS integration', '6 months support'],
