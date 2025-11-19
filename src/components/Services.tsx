@@ -44,13 +44,7 @@ const Services: React.FC = () => {
       bullets: ['Cloud hosting', 'SSL certificates', '24/7 monitoring'],
       motion: 'slide-from-right'
     },
-    {
-      icon: Search,
-      title: 'SEO Optimization',
-      description: 'Technical SEO implementation for better search visibility.',
-      bullets: ['Core Web Vitals', 'Schema markup', 'Site speed'],
-      motion: 'slide-from-left'
-    },
+  
     {
       icon: Shield,
       title: 'Security',
