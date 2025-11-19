@@ -44,13 +44,13 @@ const Contact: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       setFormData({ name: '', email: '', company: '', project: '' });
-      
+
       setTimeout(() => setIsSubmitted(false), 3000);
     }, 1000);
   };
@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-blue-600/3 to-transparent rounded-full blur-3xl animate-pulse-slow" />
-        <div 
+        <div
           className="absolute inset-0 opacity-2"
           style={{
             backgroundImage: `linear-gradient(90deg, rgba(17,24,39,0.02) 1px, transparent 1px), linear-gradient(rgba(17,24,39,0.02) 1px, transparent 1px)`,
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
-                <p className="text-gray-600">hello@nebulance.com</p>
+                <p className="text-gray-600">info@nebulance.in</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Response Time</h4>
@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
 
           {/* Form */}
           <div className="animate-on-scroll opacity-0 translate-x-12 transition-all duration-700 delay-200">
-            <div 
+            <div
               className="backdrop-blur-[16px] bg-white/75 border border-gray-900/8 rounded-xl p-8"
               style={{
                 boxShadow: '0 10px 25px rgba(17,24,39,0.06), 0 2px 4px rgba(17,24,39,0.04)'

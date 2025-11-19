@@ -22,10 +22,9 @@ const Navigation: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 ${
-      isScrolled ? 'w-full max-w-6xl mx-4' : 'w-full max-w-7xl mx-8'
-    }`}>
-      <div 
+    <nav className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300 ${isScrolled ? 'w-full max-w-6xl mx-4' : 'w-full max-w-7xl mx-8'
+      }`}>
+      <div
         className="backdrop-blur-[20px] bg-white/85 border border-gray-900/6 rounded-2xl shadow-[0_8px_32px_rgba(17,24,39,0.04),0_1px_2px_rgba(17,24,39,0.08)]"
         style={{
           boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.8), 0 8px 32px rgba(17,24,39,0.04), 0 1px 2px rgba(17,24,39,0.08)'
@@ -34,7 +33,7 @@ const Navigation: React.FC = () => {
         <div className="flex items-center justify-between px-8 py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <span 
+            <span
               className="text-xl font-bold text-blue-600 tracking-[-1.2px]"
               style={{ fontFamily: 'Inter, ui-sans-serif, system-ui' }}
             >
