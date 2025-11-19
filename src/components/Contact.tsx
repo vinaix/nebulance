@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
-                <p className="text-gray-600">hello@nebulance.com</p>
+                <p className="text-gray-600">info@nebulance.in</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Response Time</h4>
