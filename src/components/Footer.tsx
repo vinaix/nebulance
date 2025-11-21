@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     {
       title: 'Nebulance',
       items: [
-        { label: 'Premium web development and design', href: '#' }
+        { label: 'Premium AI Agency', href: '#' }
       ]
     },
     {
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
       title: 'Connect',
       items: [
         { label: 'info@nebulance.in', href: 'mailto:info@nebulance.in' },
-        { label: '© 2025 Nebulance Agency', href: '#' }
+        { label: '© 2025 Nebulance AI Agency', href: '#' }
       ]
     }
   ];
